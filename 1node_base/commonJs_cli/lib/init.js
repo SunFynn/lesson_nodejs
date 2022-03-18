@@ -23,7 +23,7 @@ module.exports = async name => {
 
     // 创建项目
     log(`🚀创建项目:` + name)
-    // 克隆代码
+    // 从github克隆项目到指定文件夹
     await clone('github:SunFynn/react-scaffold', name)
 
     // 安装项目依赖

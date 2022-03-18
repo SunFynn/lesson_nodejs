@@ -41,12 +41,12 @@ export default async (name) => {
 To get Start:
 ===========================
   cd ${name}
-  npm run serve
+  npm run start
 ===========================
           `)
   );
 
   // 打开浏览器
   open(`http://localhost:8080`);
-  await spawn('npm.cmd', ['run', 'serve'], { cwd: `./${name}` })
+  await spawn('npm.cmd', ['run', 'start'], { cwd: `./${name}` })
 };
