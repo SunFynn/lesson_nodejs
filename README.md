@@ -2,7 +2,7 @@
 全栈课程nodejs模块学习笔记记录
 
 ## lesson1
-demo文件夹中的实例学习node基础内容
+demo文件夹中的实例学习node基础内容 \n
 ~ 异步IO - fs
 ~ buffer数据类型
 ~ http服务 【创建一个建议的http服务，包含网页、接口等】 
