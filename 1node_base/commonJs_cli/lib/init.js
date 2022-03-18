@@ -23,7 +23,7 @@ module.exports = async name => {
     // 创建项目
     log(`🚀创建项目:` + name)
     // 克隆代码
-    await clone('github:su37josephxia/vue-template', name)
+    await clone('github:SunFynn/react-scaffold', name)
     log('安装依赖')
     await spawn('npm.cmd', ['install'], { cwd: `./${name}` })
     log(`
